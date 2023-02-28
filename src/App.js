@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import ButtonClear from "./components/buttonClear/ButtonClear";
+import InputNumber from "./components/inputbutton/InputNumber";
+import NumberList from "./components/numberlist/NumberList";
+
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+     <div>
+      <ButtonClear/>
+      <InputNumber/>
+      <NumberList/>
+     </div>
+    );
 }
 
 export default App;
